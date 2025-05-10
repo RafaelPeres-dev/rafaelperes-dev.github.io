@@ -33,7 +33,8 @@ $(document).ready(function() {
     $('.back_arrow').click(function() {
         location.reload(true);
     });
-    /*let tours = fetchTours();*/
+    let getAll=getLinks();
+    console.log(getAll);
 });
 function getLinks(){
     fetch('coords.txt')
