@@ -35,27 +35,14 @@ $(document).ready(function() {
     });
     let tours = fetchTours();
 });
-function fetchTours() {
-        fetch('coords.txt')
+function getLinks(){
+    fetch('coords.txt')
             .then(response => response.text())
             .then(text => {
-                const tours = {};
-                const lines = text.split('\n');
-                lines.forEach(line => {
-                    if (line.toLowerCase().includes('tour')) {
-                        const tourId = line.split('[')[0].trim();
-                        const tourDataMatch = line.match(/\[(.*?)\]/);
-                        if (tourId && tourDataMatch) {
-                            const tourData = JSON.parse(`[${tourDataMatch[1]}]`);
-                            tours[tourId] = tourData;
-                        }
-                    }
-                });
-                return tours; // Retorna o JSONObject com as informações das tours
+                return text;
             })
             .catch(error => {
-                console.error('Erro ao carregar tours:', error);
-                throw error;
+                console.error('Erro ao carregar coordenadas:', error);
             });
     }
    
