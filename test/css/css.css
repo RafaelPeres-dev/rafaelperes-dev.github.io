@@ -86,6 +86,7 @@ body{
 .back_arrow{
     width: 10%;
     display: none;
+    margin-top:50px;
 }
 @media (min-width: 1024px) {
         .logo {
