@@ -14,7 +14,7 @@
 
 <script>
     // Load the content of coords.txt into the textarea
-    fetch('/coords.txt')
+    fetch('/test/coords.txt')
         .then(response => response.text())
         .then(data => {
             document.getElementById('contentArea').value = data;
@@ -25,7 +25,7 @@
     document.getElementById('submitButton').addEventListener('click', () => {
         const content = document.getElementById('contentArea').value;
 
-        fetch('/coords.txt', {
+        fetch('/test/coords.txt', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'text/plain'
