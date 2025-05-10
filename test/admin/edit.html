@@ -25,7 +25,7 @@
     document.getElementById('submitButton').addEventListener('click', () => {
         const content = document.getElementById('contentArea').value;
 
-        fetch('/c:/Users/rappe/Desktop/test/admin/coords.txt', {
+        fetch('/coords.txt', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'text/plain'
