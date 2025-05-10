@@ -40,12 +40,26 @@ function getLinks(){
     fetch('coords.txt')
             .then(response => response.text())
             .then(text => {
-                return text;
+                return textToJson(text);
             })
             .catch(error => {
                 console.error('Erro ao carregar coordenadas:', error);
             });
     }
+function textToJson(text) {
+    try {
+        let lines = text.split('\n');
+        let result = lines.map(line => {
+            let [key, value] = line.split('=');
+            return { key: key.trim(), value: value.trim() };
+        });
+        return console.log(JSON.stringify(result, null, 2));
+    } catch (error) {
+        console.error('Error converting text to JSON:', error);
+        return null;
+    }
+}
+    
    
     
 </script>
