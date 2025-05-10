@@ -29,3 +29,22 @@
 "46.925594, 7.954737",
 "46.895661, 7.909335"
 ];
+52_tour[
+"Sedel Garage":"47.065964, 8.289111",
+"Mika Garage":"47.069729, 8.285026",
+"PTE":"47.074034, 8.290719",
+"Wigger AG":"47.067614, 8.278064",
+"KBS Parts":"47.066886, 8.278283",
+"Rothenring-Garage GmbH":"47.066545, 8.277757",
+"Garage Senn AG - Peugeot":"47.066393, 8.277796",
+"Agrons Garage","47.065118, 8.276871",
+"Carrosserie Zenklusen GmbH":"47.065233, 8.277346",
+"Garage Ruda R. Nozinic":"47.065506, 8.277996",
+"Pius Wermelinger GmbH":"47.065281, 8.278775",
+"4x4 Technik Zimmermann":"47.065281, 8.278775",
+"AUTO FUCHS & SCHMID AG Dacia":"47.065900, 8.283312",
+"Steiner Group AG, BMW Partner Luzern":"47.057916, 8.284979",
+"Mercedes-Benz Automobil AG":"47.048841, 8.271773",
+"Garage Salvenmoser GmbH":"47.049349, 8.265299",
+"Garage Daniel Marti AG":"47.049694, 8.265174",
+];
