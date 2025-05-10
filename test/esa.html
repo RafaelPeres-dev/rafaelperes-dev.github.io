@@ -126,7 +126,7 @@ $(document).ready(function() {
 
 
     function fetchTours() {
-        return fetch('coords.txt')
+        fetch('coords.txt')
             .then(response => response.text())
             .then(text => {
                 const tours = {};
