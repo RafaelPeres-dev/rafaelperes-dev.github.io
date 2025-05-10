@@ -41,9 +41,9 @@ let option;
     fetch('coords.txt')
             .then(response => response.text())
             .then(text => {
-                const desiredTourId = option; // Certifique-se de que `option` contém o ID da tour selecionada
+                const desiredTourId = option;
 
-                // Regex para encontrar o bloco da tour
+                
                 const regex = new RegExp(`${desiredTourId}\\s*\\[([\\s\\S]*?)\\];`, 'm');
                 const match = text.match(regex);
 
@@ -51,7 +51,7 @@ let option;
                     throw new Error(`Tour ID ${desiredTourId} not found.`);
                 }
 
-                // Extrair e parsear o conteúdo do array
+                
                 const arrayContent = `[${match[1]}]`;
                 const allCoords = JSON.parse(arrayContent).map(coord => coord.trim());
 
@@ -60,7 +60,7 @@ let option;
                 }
 
                 const origin = "My Location";
-                $(".form").toggle(); // Mostra o container onde os links serão inseridos
+                $(".form").toggle();
                 $(".back_arrow").toggle();
                 let partNumber = 1;
 
