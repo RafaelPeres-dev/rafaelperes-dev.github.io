@@ -84,4 +84,10 @@ body{
 }
 .back_arrow{
     width: 10%;
+    display: none;
 }
+@media (min-width: 1024px) {
+        .logo {
+            width: 25%;
+        }
+    }
