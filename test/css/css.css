@@ -3,7 +3,7 @@ html{
     background-color: gray;
     padding: 0;
     margin: 0;
-    color: #ffd100;
+    color: #ffffff;
     text-decoration: none;
     font-family: Fira Sans, system, -apple-system, \.SFNSText-Regular, San Francisco, Roboto, Segoe UI, Helvetica Neue, Lucida Grande, sans-serif;
 }
@@ -102,12 +102,21 @@ body{
 }
 
 .clientList label{
-    font-size: 110px;
+    font-size: 70px;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+    border: 1px solid #263666;
+    display: flex;
+    align-items: center;
 }
 
 .clientList input[type="checkbox"] {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 @media (min-width: 1024px) {
