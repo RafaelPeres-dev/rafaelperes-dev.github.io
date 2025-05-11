@@ -61,7 +61,7 @@ $(document).ready(function() {
     $('#submitButton').click(function() {
         const selectedClients = [];
         $('.clientList input[type="checkbox"]:checked').each(function() {
-            selectedClients.push(dataa[$(this).val()]);
+            selectedClients.push(dataa[$(this).val().replace("item","")]);
         });
 
         if (selectedClients.length < 2) {
