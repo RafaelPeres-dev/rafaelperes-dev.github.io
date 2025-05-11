@@ -47,7 +47,7 @@
 </body>
 <script>
 let option;
-
+let data
 $(document).ready(function() {
     $('.back_arrow').click(function() {
         location.reload(true);
@@ -60,22 +60,25 @@ $(document).ready(function() {
 });
 
 function getClientList(){
-    fetch('coords.txt')
+    fetch('coords_esa.txt')
             .then(response => response.text())
             .then(text => {
-                const desiredTourId = option; // Certifique-se de que `option` contém o ID da tour selecionada
+                
 
-                // Regex para encontrar o bloco da tour
-                const regex = new RegExp(`${desiredTourId}\\s*\\[([\\s\\S]*?)\\];`, 'm');
+                const tours = JSON.parse(text);
+                data = tours;
+                const selectedTour = tours[option];
 
-                const match = text.match(regex);
-
-                if (!match) {
-                    throw new Error(`Tour ID ${desiredTourId} not found.`);
+                if (!selectedTour || selectedTour.length === 0) {
+                    throw new Error("No clients found for the selected tour.");
                 }
 
-                let data = dataTratment(match[0]);
-
+                const data = {
+                    clients: selectedTour.map(client => ({
+                        name: client.Name,
+                        location: client.Loc
+                    }))
+                };
 
                 if (data.length < 2) {
                     throw new Error("At least two coordinates required.");
@@ -91,7 +94,7 @@ function getClientList(){
                 });
 
 
-            
+    
 
                 $('.form').toggle(); // Mostra o container onde os links serão inseridos
                 $('.clientList').toggle(); // Mostra a lista de clientes
@@ -111,19 +114,6 @@ function getClientList(){
 
 
 
-function dataTratment(data){
-        data = data.replace(/\r\n/g, '');
-        const clientsData = data.substring(data.indexOf('[') + 1, data.lastIndexOf(']')).split('","');
-        
-        // Create a map to store the tour ID and client information
-        const tourMap = {
-            clients: clientsData.map(client => {
-                const [name, coords] = client.replace("\"","").replace(",","").split('":"');
-                return { name, coords };
-            })
-        };
-        return tourMap;
-}
 
 
 

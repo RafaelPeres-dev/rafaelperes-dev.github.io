@@ -1,0 +1,72 @@
+{
+    "52": [
+        {
+            "Name": "Sedel Garage",
+            "Loc": "47.065964, 8.289111"
+        },
+        {
+            "Name": "Mika Garage",
+            "Loc": "47.069729, 8.285026"
+        },
+        {
+            "Name": "PTE",
+            "Loc": "47.074034, 8.290719"
+        },
+        {
+            "Name": "Wigger AG",
+            "Loc": "47.067614, 8.278064"
+        },
+        {
+            "Name": "KBS Parts",
+            "Loc": "47.066886, 8.278283"
+        },
+        {
+            "Name": "Rothenring-Garage GmbH",
+            "Loc": "47.066545, 8.277757"
+        },
+        {
+            "Name": "Garage Senn AG - Peugeot",
+            "Loc": "47.066393, 8.277796"
+        },
+        {
+            "Name": "Agrons Garage",
+            "Loc": "47.065118, 8.276871"
+        },
+        {
+            "Name": "Carrosserie Zenklusen GmbH",
+            "Loc": "47.065233, 8.277346"
+        },
+        {
+            "Name": "Garage Ruda R. Nozinic",
+            "Loc": "47.065506, 8.277996"
+        },
+        {
+            "Name": "Pius Wermelinger GmbH",
+            "Loc": "47.065281, 8.278775"
+        },
+        {
+            "Name": "4x4 Technik Zimmermann",
+            "Loc": "47.065281, 8.278775"
+        },
+        {
+            "Name": "AUTO FUCHS & SCHMID AG Dacia",
+            "Loc": "47.065900, 8.283312"
+        },
+        {
+            "Name": "Steiner Group AG, BMW Partner Luzern",
+            "Loc": "47.057916, 8.284979"
+        },
+        {
+            "Name": "Mercedes-Benz Automobil AG",
+            "Loc": "47.048841, 8.271773"
+        },
+        {
+            "Name": "Garage Salvenmoser GmbH",
+            "Loc": "47.049349, 8.265299"
+        },
+        {
+            "Name": "Garage Daniel Marti AG",
+            "Loc": "47.049694, 8.265174"
+        }
+    ]
+}
