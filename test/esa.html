@@ -117,11 +117,6 @@ function getClientList(){
 
 
 function dataTratment(data){
-    // Parse the `teste` variable to extract the tour ID and client information
-    const tourDataRegex = /(\d+)\["([^"]+)"\]/;
-    const tourMatch = data.match(tourDataRegex);
-
-    if (tourMatch) {
         const tourId = tourMatch[1]; // Extracted tour ID
         const clientsData = teste.substring(teste.indexOf('[') + 1, teste.lastIndexOf(']')).split('","');
 
@@ -141,9 +136,7 @@ function dataTratment(data){
         tourMap.clients.forEach(client => {
             $('.clientList').append(`<p>${client.name} - Coordinates: ${client.coords}</p>`);
         });
-    } else {
-        console.error('Failed to parse tour data.');
-    }
+
 }
 
 
