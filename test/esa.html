@@ -83,11 +83,15 @@ function getClientList(){
 
                 // Adiciona os clientes à lista
                 $('.clientList').empty();
-                let clientNumber;
-                data.forEach(name => {
-                    $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${data[clientNumber].name}</label><br>`);
+                let clientNumber=0;
+
+                data.clients.forEach(client => {
+                    $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${client.name}</label><br>`);
                     clientNumber++;
                 });
+
+
+            
 
                 $('.form').toggle(); // Mostra o container onde os links serão inseridos
                 $('.clientList').toggle(); // Mostra a lista de clientes
