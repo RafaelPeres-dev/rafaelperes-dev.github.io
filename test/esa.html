@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="css/css.css">
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
 </head>
 <body>
     <div class="platform">
         <div class="top">
             <div class="logo">
-                <img src="images/loetscher-transport-gmbh-logo.svg" class="firmaLogo">
+                <!-- <img src="images/loetscher-transport-gmbh-logo.svg" class="firmaLogo"> -->
             </div>
         </div>
         <div class="form">
@@ -33,15 +32,12 @@
                         <option value="65">65</option>
                     </select>
         </div>
-        
         <div class="clientList">
             Clientes:
         </div>
         <input type="button" id="submitButton" value="Submit" class="buttonSubmit">
-
         <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
         <div class="buttons">
-
         </div>
     </div>
 </body>
@@ -73,32 +69,24 @@ $(document).ready(function() {
         
     });
 });
-
 function getClientList(){
     fetch('coords_esa.txt')
             .then(response => response.text())
             .then(text => {
-                
-
                 const tours = JSON.parse(text);
                 const selectedTour = tours[option];
-
                 if (!selectedTour || selectedTour.length === 0) {
                     throw new Error("No clients found for the selected tour.");
                 }
-
                 const data = {
                     clients: selectedTour.map(client => ({
                         name: client.Name,
                         location: client.Loc
                     }))
                 };
-
                 if (data.length < 2) {
                     throw new Error("At least two coordinates required.");
                 }
-
-                // Adiciona os clientes à lista
                 $('.clientList').empty();
                 let clientNumber=0;
                 dataa = data.clients;
@@ -106,34 +94,32 @@ function getClientList(){
                     $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${client.name}</label><br>`);
                     clientNumber++;
                 });
-                $('.form').toggle(); // Mostra o container onde os links serão inseridos
-                $('.clientList').toggle(); // Mostra a lista de clientes
+                $('.form').toggle();
+                $('.clientList').toggle();
                 $('.buttonSubmit').toggle();
             })
             .catch(error => {
                 console.error('Error:', error);
             });
-
-
-
 }
 
 
 function getLinks(data){
-alert("oi");
     const origin = "My Location";
     let partNumber = 1;
     let allCoords = [];
     data.forEach(client => {
         allCoords.push(client.location);
     });
-
     for (let i = 0; i < allCoords.length; i += 10) {
         const slice = allCoords.slice(i, i + 11);
         const url = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${slice.join('|')}&waypoints=${slice.join('|')}&dir_action=navigate`;
         $('.buttons').append(`<a href="${url}" target="_blank" class="button">Part ${partNumber}</a>`);
         partNumber++;
     }
+    $('.buttons').toggle();
+    $('.clientList').toggle();
+    $('.buttonSubmit').toggle();
 }
 
 
