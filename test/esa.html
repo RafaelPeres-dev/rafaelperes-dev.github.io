@@ -74,6 +74,9 @@ function getClientList(){
                     throw new Error(`Tour ID ${desiredTourId} not found.`);
                 }
 
+                let data = dataTratment(match[0]);
+
+
                 // Extrair e parsear o conteúdo do array
                 const arrayContent = `[${match[1]}]`;
                 const allCoords = JSON.parse(arrayContent).map(coord => coord.trim());
@@ -106,13 +109,42 @@ function getClientList(){
 
 
 
-
 }
 
 
 
 
 
+
+function dataTratment(data){
+    // Parse the `teste` variable to extract the tour ID and client information
+    const tourDataRegex = /(\d+)\["([^"]+)"\]/;
+    const tourMatch = data.match(tourDataRegex);
+
+    if (tourMatch) {
+        const tourId = tourMatch[1]; // Extracted tour ID
+        const clientsData = teste.substring(teste.indexOf('[') + 1, teste.lastIndexOf(']')).split('","');
+
+        // Create a map to store the tour ID and client information
+        const tourMap = {
+            id: tourId,
+            clients: clientsData.map(client => {
+                const [name, coords] = client.split('":"');
+                return { name, coords };
+            })
+        };
+
+        console.log(tourMap);
+
+        // Example: Display the map on the page
+        $('.clientList').append(`<h3>Tour ID: ${tourMap.id}</h3>`);
+        tourMap.clients.forEach(client => {
+            $('.clientList').append(`<p>${client.name} - Coordinates: ${client.coords}</p>`);
+        });
+    } else {
+        console.error('Failed to parse tour data.');
+    }
+}
 
 
 
