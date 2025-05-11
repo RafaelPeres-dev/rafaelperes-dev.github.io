@@ -77,30 +77,21 @@ function getClientList(){
                 let data = dataTratment(match[0]);
 
 
-                // Extrair e parsear o conteúdo do array
-                const arrayContent = `[${match[1]}]`;
-                const allCoords = JSON.parse(arrayContent).map(coord => coord.trim());
-
-                if (allCoords.length < 2) {
+                if (data.length < 2) {
                     throw new Error("At least two coordinates required.");
                 }
 
                 // Adiciona os clientes à lista
                 $('.clientList').empty();
                 let clientNumber;
-                allCoords.forEach(coord => {
-                    $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${coord}</label><br>`);
+                data.forEach(name => {
+                    $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${data[clientNumber].name}</label><br>`);
                     clientNumber++;
                 });
 
                 $('.form').toggle(); // Mostra o container onde os links serão inseridos
                 $('.clientList').toggle(); // Mostra a lista de clientes
                 $('.buttonSubmit').toggle();
-
-
-
-
-
 
             })
             .catch(error => {
@@ -123,18 +114,11 @@ function dataTratment(data){
         // Create a map to store the tour ID and client information
         const tourMap = {
             clients: clientsData.map(client => {
-                const [name, coords] = client.split('":"');
+                const [name, coords] = client.replace("\"","").replace(",","").split('":"');
                 return { name, coords };
             })
         };
-
-        console.log(tourMap);
-
-        // Example: Display the map on the page
-        tourMap.clients.forEach(client => {
-            $('.clientList').append(`<p>${client.name} - Coordinates: ${client.coords}</p>`);
-        });
-
+        return tourMap;
 }
 
 
