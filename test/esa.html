@@ -114,12 +114,13 @@ function getLinks(data){
     for (let i = 0; i < allCoords.length; i += 10) {
         const slice = allCoords.slice(i, i + 11);
         const url = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${slice.join('|')}&waypoints=${slice.join('|')}&dir_action=navigate`;
-        $('.buttons').append(`<a href="${url}" target="_blank" class="button">Part ${partNumber}</a>`);
+        $('.buttons').append(`<a href="${url}" target="_blank" class="myButton">Navigate Tour #${partNumber}</a>`);
         partNumber++;
     }
-    $('.buttons').toggle();
+    
     $('.clientList').toggle();
     $('.buttonSubmit').toggle();
+    $('.buttons').toggle();
 }
 
 
