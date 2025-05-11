@@ -117,8 +117,9 @@ function getClientList(){
 
 
 function dataTratment(data){
+        data = data.replace(/\r\n/g, '');
         const clientsData = data.substring(data.indexOf('[') + 1, data.lastIndexOf(']')).split('","');
-        clientsData = clientsData.replace(/\r\n/g, '');
+        
         // Create a map to store the tour ID and client information
         const tourMap = {
             clients: clientsData.map(client => {
