@@ -87,18 +87,28 @@ body{
     display: none;
 }
 
-.clientList{
-    width: 100%;
-    height: 100%;
+.separate{
     display: none;
+    align-items: center;
+}
+
+.clientList{
+    width: 50%;
+    height: 80%;
 }
 .buttonSubmit{
-    width: 100%;
-    height: 100%;
-    display: none;
+    width: 50%;
+    height: 200px;
 }
 
+.clientList label{
+    font-size: 110px;
+}
 
+.clientList input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
 
 @media (min-width: 1024px) {
         .logo {
