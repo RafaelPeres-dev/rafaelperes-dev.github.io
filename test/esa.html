@@ -117,8 +117,7 @@ function getClientList(){
 
 
 function dataTratment(data){
-        const tourId = tourMatch[1]; // Extracted tour ID
-        const clientsData = teste.substring(teste.indexOf('[') + 1, teste.lastIndexOf(']')).split('","');
+        const clientsData = data.substring(data.indexOf('[') + 1, data.lastIndexOf(']')).split('","');
 
         // Create a map to store the tour ID and client information
         const tourMap = {
