@@ -133,5 +133,16 @@ function getLinks(data){
     $('.separate').css('display', 'none');
     $('.buttons').css('display', 'flex');
 }
+
+
+$('.clientList').on('change', 'input[type="checkbox"]', function() {
+    if ($(this).is(':checked')) {
+        $(this).parent('label').css('background-color', '#0f4797');
+    } else {
+        $(this).parent('label').css('background-color', '');
+    }
+});
+
+
 </script>
 </html>
