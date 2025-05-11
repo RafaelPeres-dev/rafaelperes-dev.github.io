@@ -47,7 +47,6 @@
 </body>
 <script>
 let option;
-let data
 $(document).ready(function() {
     $('.back_arrow').click(function() {
         location.reload(true);
@@ -66,7 +65,6 @@ function getClientList(){
                 
 
                 const tours = JSON.parse(text);
-                data = tours;
                 const selectedTour = tours[option];
 
                 if (!selectedTour || selectedTour.length === 0) {
