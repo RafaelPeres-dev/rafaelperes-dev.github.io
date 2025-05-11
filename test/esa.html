@@ -40,8 +40,6 @@
             <input type="button" id="submitButton" value="Submit" class="buttonSubmit">
 
         </div>
-        
-        <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
         <div class="buttons">
         </div>
     </div>
@@ -56,7 +54,16 @@ $(document).ready(function() {
 
     $('#tour').change(function() {
         option = $(this).val();
+        $('.back_arrow').css('display', 'block');
         getClientList();
+    });
+
+    $('.clientList').on('change', 'input[type="checkbox"]', function() {
+        if ($(this).is(':checked')) {
+            $(this).parent('label').css('background-color', '#0f4797');
+        } else {
+            $(this).parent('label').css('background-color', '');
+        }
     });
 
     $('#submitButton').click(function() {
@@ -135,13 +142,7 @@ function getLinks(data){
 }
 
 
-$('.clientList').on('change', 'input[type="checkbox"]', function() {
-    if ($(this).is(':checked')) {
-        $(this).parent('label').css('background-color', '#0f4797');
-    } else {
-        $(this).parent('label').css('background-color', '');
-    }
-});
+
 
 
 </script>
