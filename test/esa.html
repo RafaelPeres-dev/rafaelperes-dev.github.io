@@ -32,10 +32,14 @@
                         <option value="65">65</option>
                     </select>
         </div>
-        <div class="clientList">
-            Clientes:
+        <div class="separate">
+            <div class="clientList">
+                Clientes:
+            </div>
+            <input type="button" id="submitButton" value="Submit" class="buttonSubmit">
+
         </div>
-        <input type="button" id="submitButton" value="Submit" class="buttonSubmit">
+        
         <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
         <div class="buttons">
         </div>
@@ -113,14 +117,23 @@ function getLinks(data){
     });
     for (let i = 0; i < allCoords.length; i += 10) {
         const slice = allCoords.slice(i, i + 11);
-        const url = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${slice.join('|')}&waypoints=${slice.join('|')}&dir_action=navigate`;
-        $('.buttons').append(`<a href="${url}" target="_blank" class="myButton">Navigate Tour #${partNumber}</a>`);
+        const destination = slice[slice.length - 1];
+        const waypoints = slice.slice(0, -1);
+        const baseUrl = 'https://www.google.com/maps/dir/?api=1';
+        const originParam = `origin=${encodeURIComponent(origin)}`;
+        const destinationParam = `destination=${encodeURIComponent(destination)}`;
+        const waypointsParam = waypoints.length
+            ? `&waypoints=${encodeURIComponent(waypoints.join('|'))}`
+            : '';
+        const travelMode = 'travelmode=driving';
+        const link = `${baseUrl}&${originParam}&${destinationParam}${waypointsParam}&${travelMode}`;
+        $(".buttons").append(`<a href="${link}" target="_blank" class="myButton">Navigate Tour #${partNumber}</a>`);
         partNumber++;
     }
     
     $('.clientList').toggle();
     $('.buttonSubmit').toggle();
-    $('.buttons').toggle();
+    $('.buttons').css('display', 'flex');
 }
 
 
