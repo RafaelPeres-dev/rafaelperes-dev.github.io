@@ -18,8 +18,28 @@
         <div class="form">
                     <select id="tour">
                         <option value="">Select Tour</option>
+                        <option value="6102">50</option>
+                        <option value="6108">51</option>
+                        <option value="6110">52</option>
+                        <option value="6111">53</option>
+                        <option value="6112">54</option>
+                        <option value="6113">55</option>
+                        <option value="6114">56</option>
+                        <option value="6115">57</option>
+                        <option value="6116">58</option>
+                        <option value="6117">59</option>
+                        <option value="6118">60</option>
+                        <option value="6119">61</option>
+                        <option value="6120">63</option>
+                        <option value="6121">65</option>
                     </select>
         </div>
+        
+        <div class="clientList">
+            Clientes:
+        </div>
+        <input type="button" id="submitButton" value="Submit" class="buttonSubmit">
+
         <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
         <div class="buttons">
 
@@ -33,34 +53,77 @@ $(document).ready(function() {
     $('.back_arrow').click(function() {
         location.reload(true);
     });
-    let getAll=getLinks();
-    console.log(getAll);
+
+    $('#tour').change(function() {
+        option = $(this).val();
+        getClientList();
+    });
 });
-function getLinks(){
+
+function getClientList(){
     fetch('coords.txt')
             .then(response => response.text())
             .then(text => {
-                return textToJson(text);
+                const desiredTourId = option; // Certifique-se de que `option` contém o ID da tour selecionada
+
+                // Regex para encontrar o bloco da tour
+                const regex = new RegExp(`${desiredTourId}\\s*\\[([\\s\\S]*?)\\];`, 'm');
+
+                const match = text.match(regex);
+
+                if (!match) {
+                    throw new Error(`Tour ID ${desiredTourId} not found.`);
+                }
+
+                // Extrair e parsear o conteúdo do array
+                const arrayContent = `[${match[1]}]`;
+                const allCoords = JSON.parse(arrayContent).map(coord => coord.trim());
+
+                if (allCoords.length < 2) {
+                    throw new Error("At least two coordinates required.");
+                }
+
+                // Adiciona os clientes à lista
+                $('.clientList').empty();
+                let clientNumber;
+                allCoords.forEach(coord => {
+                    $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${coord}</label><br>`);
+                    clientNumber++;
+                });
+
+                $('.form').toggle(); // Mostra o container onde os links serão inseridos
+                $('.clientList').toggle(); // Mostra a lista de clientes
+                $('.buttonSubmit').toggle();
+
+
+
+
+
+
             })
             .catch(error => {
-                console.error('Erro ao carregar coordenadas:', error);
+                console.error('Error:', error);
             });
-    }
-function textToJson(text) {
-    try {
-        let lines = text.split('\n');
-        let result = lines.map(line => {
-            let [key, value] = line.split('=');
-            return { key: key.trim(), value: value.trim() };
-        });
-        return console.log(JSON.stringify(result, null, 2));
-    } catch (error) {
-        console.error('Error converting text to JSON:', error);
-        return null;
-    }
+
+
+
+
 }
-    
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 </script>
 
@@ -68,4 +131,3 @@ function textToJson(text) {
 
 
 </html>
-
