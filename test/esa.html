@@ -32,6 +32,7 @@
                         <option value="65">65</option>
                     </select>
         </div>
+        <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
         <div class="separate">
             <div class="clientList">
                 Clientes:
@@ -99,14 +100,12 @@ function getClientList(){
                     clientNumber++;
                 });
                 $('.form').toggle();
-                $('.clientList').toggle();
-                $('.buttonSubmit').toggle();
+                $('.separate').css('display', 'flex');
             })
             .catch(error => {
                 console.error('Error:', error);
             });
 }
-
 
 function getLinks(data){
     const origin = "My Location";
@@ -131,26 +130,8 @@ function getLinks(data){
         partNumber++;
     }
     
-    $('.clientList').toggle();
-    $('.buttonSubmit').toggle();
+    $('.separate').css('display', 'none');
     $('.buttons').css('display', 'flex');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-    
 </script>
-
-
-
-
 </html>
