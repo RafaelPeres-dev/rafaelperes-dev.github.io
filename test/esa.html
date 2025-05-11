@@ -47,6 +47,7 @@
 </body>
 <script>
 let option;
+let dataa;
 $(document).ready(function() {
     $('.back_arrow').click(function() {
         location.reload(true);
@@ -55,6 +56,21 @@ $(document).ready(function() {
     $('#tour').change(function() {
         option = $(this).val();
         getClientList();
+    });
+
+    $('#submitButton').click(function() {
+        const selectedClients = [];
+        $('.clientList input[type="checkbox"]:checked').each(function() {
+            selectedClients.push(dataa[$(this).val()]);
+        });
+
+        if (selectedClients.length < 2) {
+            alert("Please select at least two clients.");
+            return;
+        }
+
+        getLinks(selectedClients);
+        
     });
 });
 
@@ -85,19 +101,14 @@ function getClientList(){
                 // Adiciona os clientes à lista
                 $('.clientList').empty();
                 let clientNumber=0;
-
+                dataa = data.clients;
                 data.clients.forEach(client => {
                     $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${client.name}</label><br>`);
                     clientNumber++;
                 });
-
-
-    
-
                 $('.form').toggle(); // Mostra o container onde os links serão inseridos
                 $('.clientList').toggle(); // Mostra a lista de clientes
                 $('.buttonSubmit').toggle();
-
             })
             .catch(error => {
                 console.error('Error:', error);
@@ -108,8 +119,22 @@ function getClientList(){
 }
 
 
+function getLinks(data){
+alert("oi");
+    const origin = "My Location";
+    let partNumber = 1;
+    let allCoords = [];
+    data.forEach(client => {
+        allCoords.push(client.location);
+    });
 
-
+    for (let i = 0; i < allCoords.length; i += 10) {
+        const slice = allCoords.slice(i, i + 11);
+        const url = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${slice.join('|')}&waypoints=${slice.join('|')}&dir_action=navigate`;
+        $('.buttons').append(`<a href="${url}" target="_blank" class="button">Part ${partNumber}</a>`);
+        partNumber++;
+    }
+}
 
 
 
