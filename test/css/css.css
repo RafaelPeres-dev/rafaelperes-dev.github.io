@@ -38,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: flex-start;
 }
 
 .myButton {
@@ -56,11 +56,12 @@ body{
     text-decoration:none;
     text-shadow:0px 1px 0px #263666;
     width: 90%;
-    height: 17%;
+    height: 12%;
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 75px;
 }
 .myButton:hover {
     background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
