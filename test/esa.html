@@ -121,7 +121,6 @@ function dataTratment(data){
 
         // Create a map to store the tour ID and client information
         const tourMap = {
-            id: tourId,
             clients: clientsData.map(client => {
                 const [name, coords] = client.split('":"');
                 return { name, coords };
@@ -131,7 +130,6 @@ function dataTratment(data){
         console.log(tourMap);
 
         // Example: Display the map on the page
-        $('.clientList').append(`<h3>Tour ID: ${tourMap.id}</h3>`);
         tourMap.clients.forEach(client => {
             $('.clientList').append(`<p>${client.name} - Coordinates: ${client.coords}</p>`);
         });
