@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/css.css">
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/js.js"></script>
 </head>
 <body>
     <div class="platform">
         <div class="top">
             <div class="logo">
-                <!-- <img src="images/loetscher-transport-gmbh-logo.svg" class="firmaLogo"> -->
+               <a href="index.html"><img src="images/loetscher-transport-gmbh-logo.svg" class="firmaLogo"></a>
             </div>
         </div>
         <div class="form">
@@ -77,69 +78,13 @@ $(document).ready(function() {
             return;
         }
 
-        getLinks(selectedClients);
+        getLinksEsa(selectedClients);
         
     });
 });
-function getClientList(){
-    fetch('coords_esa.txt')
-            .then(response => response.text())
-            .then(text => {
-                const tours = JSON.parse(text);
-                const selectedTour = tours[option];
-                if (!selectedTour || selectedTour.length === 0) {
-                    throw new Error("No clients found for the selected tour.");
-                }
-                const data = {
-                    clients: selectedTour.map(client => ({
-                        name: client.Name,
-                        location: client.Loc
-                    }))
-                };
-                if (data.length < 2) {
-                    throw new Error("At least two coordinates required.");
-                }
-                $('.clientList').empty();
-                let clientNumber=0;
-                dataa = data.clients;
-                data.clients.forEach(client => {
-                    $('.clientList').append(`<label><input type="checkbox" value="item${clientNumber}">${client.name}</label><br>`);
-                    clientNumber++;
-                });
-                $('.form').toggle();
-                $('.separate').css('display', 'flex');
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-}
 
-function getLinks(data){
-    const origin = "My Location";
-    let partNumber = 1;
-    let allCoords = [];
-    data.forEach(client => {
-        allCoords.push(client.location);
-    });
-    for (let i = 0; i < allCoords.length; i += 10) {
-        const slice = allCoords.slice(i, i + 11);
-        const destination = slice[slice.length - 1];
-        const waypoints = slice.slice(0, -1);
-        const baseUrl = 'https://www.google.com/maps/dir/?api=1';
-        const originParam = `origin=${encodeURIComponent(origin)}`;
-        const destinationParam = `destination=${encodeURIComponent(destination)}`;
-        const waypointsParam = waypoints.length
-            ? `&waypoints=${encodeURIComponent(waypoints.join('|'))}`
-            : '';
-        const travelMode = 'travelmode=driving';
-        const link = `${baseUrl}&${originParam}&${destinationParam}${waypointsParam}&${travelMode}`;
-        $(".buttons").append(`<a href="${link}" target="_blank" class="myButton">Navigate Tour #${partNumber}</a>`);
-        partNumber++;
-    }
-    
-    $('.separate').css('display', 'none');
-    $('.buttons').css('display', 'flex');
-}
+
+
 
 
 
