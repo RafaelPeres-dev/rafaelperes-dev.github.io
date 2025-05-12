@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>
+        TOUR HELPER
+    </title>
+    <link rel="stylesheet" href="css/css.css">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/js.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+</head>
+<body>
+    <div class="platform">
+        <div class="top">
+            <div class="logo">
+               <a href="index.html"><img src="images/loetscher-transport-gmbh-logo.svg" class="firmaLogo"></a>
+            </div>
+        </div>
+        <div class="form">
+                    <select id="tour">
+                        <option value="">Select Tour</option>
+                        <option value="50">50</option>
+                        <option value="51">51</option>
+                        <option value="52">52</option>
+                        <option value="53">53</option>
+                        <option value="54">54</option>
+                        <option value="55">55</option>
+                        <option value="56">56</option>
+                        <option value="57">57</option>
+                        <option value="58">58</option>
+                        <option value="59">59</option>
+                        <option value="61">61</option>
+                        <option value="63">63</option>
+                        <option value="65">65</option>
+                    </select>
+        </div>
+        <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
+        <div class="separate">
+            <div class="clientList">
+                Clientes:
+            </div>
+            <input type="button" id="submitButton" value="Submit" class="buttonSubmit">
+
+        </div>
+        <div class="buttons">
+        </div>
+    </div>
+</body>
+<script>
+let option;
+let dataa;
+$(document).ready(function() {
+    $('.back_arrow').click(function() {
+        location.reload(true);
+    });
+
+    $('#tour').change(function() {
+        option = $(this).val();
+        $('.back_arrow').css('display', 'block');
+        getClientList();
+    });
+
+    $('.clientList').on('change', 'input[type="checkbox"]', function() {
+        if ($(this).is(':checked')) {
+            $(this).parent('label').css('background-color', '#0f4797');
+        } else {
+            $(this).parent('label').css('background-color', '');
+        }
+    });
+
+    $('#submitButton').click(function() {
+        const selectedClients = [];
+        $('.clientList input[type="checkbox"]:checked').each(function() {
+            selectedClients.push(dataa[$(this).val().replace("item","")]);
+        });
+
+        if (selectedClients.length < 2) {
+            alert("Please select at least two clients.");
+            return;
+        }
+
+        getLinksEsa(selectedClients);
+        
+    });
+});
+
+
+
+
+
+
+
+
+</script>
+</html>

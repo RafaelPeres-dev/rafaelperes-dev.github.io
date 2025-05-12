@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>
+        TOUR HELPER
+    </title>
+    <link rel="stylesheet" href="css/css.css">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/js.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+</head>
+<body>
+    <div class="platform">
+        <div class="top">
+            <div class="logo">
+                <a href="index.html"><img src="images/loetscher-transport-gmbh-logo.svg" class="firmaLogo"></a>
+            </div>
+        </div>
+        <div class="form">
+                    <select id="tour">
+                        <option value="">Select Tour</option>
+                        <option value="6102">6102</option>
+                        <option value="6104">6104</option>
+                        <option value="6106">6106</option>
+                        <option value="6107">6107</option>
+                        <option value="6108">6108</option>
+                        <option value="6112">6112</option>
+                    </select>
+        </div>
+        <a action="./"><img class="back_arrow" src="images/back-arrow-icon.svg"></a>
+        <div class="buttons">
+
+        </div>
+    </div>
+</body>
+<script>
+let option;
+    $('#tour').change(function() {
+        option = $(this).val();
+        getLinks();
+    });
+    $('.back_arrow').click(function() {
+        location.reload(true);
+    });
+    
+</script>
+
+
+
+
+</html>
