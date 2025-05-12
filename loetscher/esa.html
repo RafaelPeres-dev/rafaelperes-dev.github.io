@@ -60,14 +60,6 @@ $(document).ready(function() {
         getClientList();
     });
 
-    $('.clientList').on('change', 'input[type="checkbox"]', function() {
-        if ($(this).is(':checked')) {
-            $(this).parent('label').css('background-color', '#0f4797');
-        } else {
-            $(this).parent('label').css('background-color', '');
-        }
-    });
-
     $('#submitButton').click(function() {
         const selectedClients = [];
         $('.clientList input[type="checkbox"]:checked').each(function() {
