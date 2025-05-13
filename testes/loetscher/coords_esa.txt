@@ -1,0 +1,191 @@
+{
+    "52": [
+        {
+            "Name": "Sedel Garage",
+            "Loc": "47.065964, 8.289111"
+        },
+        {
+            "Name": "Mika Garage",
+            "Loc": "47.069729, 8.285026"
+        },
+        {
+            "Name": "PTE",
+            "Loc": "47.074034, 8.290719"
+        },
+        {
+            "Name": "Wigger AG",
+            "Loc": "47.067614, 8.278064"
+        },
+        {
+            "Name": "KBS Parts",
+            "Loc": "47.066886, 8.278283"
+        },
+        {
+            "Name": "Rothenring-Garage GmbH",
+            "Loc": "47.066545, 8.277757"
+        },
+        {
+            "Name": "Garage Senn AG - Peugeot",
+            "Loc": "47.066393, 8.277796"
+        },
+        {
+            "Name": "Agrons Garage",
+            "Loc": "47.065118, 8.276871"
+        },
+        {
+            "Name": "Carrosserie Zenklusen GmbH",
+            "Loc": "47.065233, 8.277346"
+        },
+        {
+            "Name": "Garage Ruda R. Nozinic",
+            "Loc": "47.065506, 8.277996"
+        },
+        {
+            "Name": "Pius Wermelinger GmbH",
+            "Loc": "47.065281, 8.278775"
+        },
+        {
+            "Name": "4x4 Technik Zimmermann",
+            "Loc": "47.065281, 8.278775"
+        },
+        {
+            "Name": "AUTO FUCHS & SCHMID AG Dacia",
+            "Loc": "47.065900, 8.283312"
+        },
+        {
+            "Name": "Steiner Group AG, BMW Partner Luzern",
+            "Loc": "47.057916, 8.284979"
+        },
+        {
+            "Name": "Mercedes-Benz Automobil AG",
+            "Loc": "47.048841, 8.271773"
+        },
+        {
+            "Name": "Garage Salvenmoser GmbH",
+            "Loc": "47.049349, 8.265299"
+        },
+        {
+            "Name": "Garage Daniel Marti AG",
+            "Loc": "47.049694, 8.265174"
+        },{
+            "Name": "Xclusive Cars",
+            "Loc": "47.050788, 8.264896"
+        },
+        {
+            "Name": "Dorfgarage",
+            "Loc": "47.049974, 8.258726"
+        },
+        {
+            "Name": "Autoservice Schmidlin GmbH",
+            "Loc": "47.052907, 8.257442"
+        },
+        {
+            "Name": "Garage Hayat GmbH",
+            "Loc": "47.053473, 8.257915"
+        },
+        {
+            "Name": "Staufer Garage",
+            "Loc": "47.053805, 8.258024"
+        },
+        {
+            "Name": "Emil Frey Luzern-Littau",
+            "Loc": "47.061981, 8.265320"
+        },
+        {
+            "Name": "GARAGE GALLIKER AG",
+            "Loc": "47.066330, 8.269476"
+        },
+        {
+            "Name": "Zemp Garage",
+            "Loc": "47.054277, 8.254585"
+        },
+        {
+            "Name": "M+E Tecknik",
+            "Loc": "47.048359, 8.237372"
+        },
+        {
+            "Name": "Lötscher Tiefbau AG",
+            "Loc": "47.049263, 8.233205"
+        },
+        {
+            "Name": "Stalder Garage",
+            "Loc": "47.050346, 8.233124"
+        },
+        {
+            "Name": "Fluck Garage GmbH",
+            "Loc": "47.051892, 8.233978"
+        },
+        {
+            "Name": "Kurman",
+            "Loc": "47.040257, 8.218761"
+        },
+        {
+            "Name": "Touring Garage Malters",
+            "Loc": "47.038826, 8.190144"
+        },
+        {
+            "Name": "Stan Automobile",
+            "Loc": "47.043979, 8.193145"
+        },
+        {
+            "Name": "Ei-Garage Gut GmbH",
+            "Loc": "47.043389, 8.194915"
+        },
+        {
+            "Name": "Lastwagen-Service Malters AG",
+            "Loc": "47.043467, 8.195738"
+        },
+        {
+            "Name": "Auto Malters GmbH",
+            "Loc": "47.044290, 8.192465"
+        },
+        {
+            "Name": "A.C.A.B.",
+            "Loc": "47.043991, 8.192459"
+        },
+        {
+            "Name": "Elite-Garage",
+            "Loc": "47.043675, 8.182219"
+        },
+        {
+            "Name": "Garage B. Seeberger AG",
+            "Loc": "47.040388, 8.175922"
+        },
+        {
+            "Name": "Baumaschinen-Service Malters AG",
+            "Loc": "47.038523, 8.177930"
+        },
+        {
+            "Name": "Garage Graf AG Schwarzenberg",
+            "Loc": "47.015095, 8.173257"
+        },
+        {
+            "Name": "Garage Kramer GmbH",
+            "Loc": "47.038636, 8.138883"
+        },
+        {
+            "Name": "Wicki AutoTech GmbH",
+            "Loc": "47.040449, 8.135757"
+        },
+        {
+            "Name": "AutoCenter",
+            "Loc": "47.040449, 8.134233"
+        },
+        {
+            "Name": "Auto Marbacher",
+            "Loc": "47.041305, 8.133918"
+        },
+        {
+            "Name": "Route 10",
+            "Loc": "47.037577, 8.161285"
+        },
+        {
+            "Name": "Schärli Bossert AG",
+            "Loc": "47.055109, 8.086070"
+        },
+        {
+            "Name": "RS garage",
+            "Loc": "47.059241, 8.090832"
+        }
+    ]
+}
