@@ -248,15 +248,7 @@
             "Name": "Garage Fünfstern AG",
             "Loc": "47.133098, 8.196442"
         }
-    ]
-}
-
-
-
-
-
-
-{
+    ],
     "51": [
         {
             "Name": "Auto Dall'Omo Gmbh",
@@ -515,16 +507,7 @@
             "Name": "Garage Melchior Kohler",
             "Loc": "46.738605, 8.167891"
         }
-    ]
-}
-
-
-
-
-
-
-
-{
+    ],
     "52": [
         {
             "Name": "Sedel Garage",
@@ -876,4 +859,3 @@
         }
     ]
 }
-
