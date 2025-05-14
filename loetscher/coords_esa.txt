@@ -77,7 +77,7 @@
             "Loc": "47.057916, 8.284979"
         },
         {
-            "Name": "Mercedes-Benz Automobil AG",
+            "Name": "LUEG Littau",
             "Loc": "47.048841, 8.271773"
         },
         {
