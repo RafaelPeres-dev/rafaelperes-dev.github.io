@@ -1188,7 +1188,128 @@
     "56": [],
     "57": [],
     "58": [],
-    "59": [],
+    "59": [
+        {
+            "Name": "Bolliger Nutzfahrzeuge AG",
+            "Loc": "47.102330, 8.376677"
+        },
+        {
+            "Name": "Garage + Carrosserie Britschgi GmbH",
+            "Loc": "47.071463, 8.378392"
+        },
+        {
+            "Name": "Amrein Autospritzwerk GmbH",
+            "Loc": "47.070840, 8.377720"
+        },
+        {
+            "Name": "K. Flury AG",
+            "Loc": "47.086980, 8.399868"
+        },
+        {
+            "Name": "Genossenschaft Migros Luzern",
+            "Loc": "47.097923, 8.366217"
+        },
+        {
+            "Name": "Hermann Strasser",
+            "Loc": "47.093954, 8.364196"
+        },
+        {
+            "Name": "Ron Automobile Gosswiler GmbH",
+            "Loc": "47.094464, 8.363233"
+        },
+        {
+            "Name": "RFV Garage AG",
+            "Loc": "47.094825, 8.363230"
+        },
+        {
+            "Name": "AMAG",
+            "Loc": "47.107142, 8.353081"
+        },
+        {
+            "Name": "Garage Oscar GmbH",
+            "Loc": "47.107810, 8.343777"
+        },
+        {
+            "Name": "Auto Scheidegger & Brenner GmbH",
+            "Loc": "47.108079, 8.344010"
+        },
+        {
+            "Name": "Auto Hess AG",
+            "Loc": "47.108247, 8.343989"
+        },
+        {
+            "Name": "Leader Pneu-Garage GmbH",
+            "Loc": "47.107324, 8.341628"
+        },
+        {
+            "Name": "Arthur Weber, c/o Wiederkehr, Buchrain",
+            "Loc": "47.097737, 8.351828"
+        },
+        {
+            "Name": "Garage Pfleiderer",
+            "Loc": "47.092013, 8.345940"
+        },
+        {
+            "Name": "Carrosserie J. Kaufmann AG",
+            "Loc": "47.088500, 8.343629"
+        },
+        {
+            "Name": "Simplex Garage Gmbh",
+            "Loc": "47.091869, 8.349620"
+        },
+        {
+            "Name": "Bahnhof Garage Ebikon",
+            "Loc": "47.085407, 8.344277"
+        },
+        {
+            "Name": "Garage Zenuni",
+            "Loc": "47.078142, 8.334994"
+        },
+        {
+            "Name": "Emil Frey Ebikon",
+            "Loc": "47.075108, 8.330849"
+        },
+        {
+            "Name": "Carplanet | Garage Bolzern Koch AG",
+            "Loc": "47.073214, 8.327653"
+        },
+        {
+            "Name": "Autohaus Imholz AG - Peugeot",
+            "Loc": "47.071838, 8.325034"
+        },
+        {
+            "Name": "Garage Galliker AG Ebikon - Renault",
+            "Loc": "47.071115, 8.324207"
+        },
+        {
+            "Name": "Autogarage P. Erne",
+            "Loc": "47.074235, 8.328310"
+        },
+        {
+            "Name": "Carrosserie Rotsee",
+            "Loc": "47.068081, 8.315771"
+        },
+        {
+            "Name": "Garage Wesemlin",
+            "Loc": "47.060803, 8.316103"
+        },
+        {
+            "Name": "Central Garage M. Huber",
+            "Loc": "47.058783, 8.309782"
+        },
+        {
+            "Name": "AGVS",
+            "Loc": "47.048574, 8.311525"
+        },
+        {
+            "Name": "Feuerwehr Meggen",
+            "Loc": "47.047752, 8.376449"
+        },
+        {
+            "Name": "Dorfgarage Vitznau A.Hetemi",
+            "Loc": "47.008368, 8.483825"
+        }
+    ],
     "61": [
         {
             "Name": "ReifenCenter Goldau",
