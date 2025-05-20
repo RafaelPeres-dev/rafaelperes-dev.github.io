@@ -83,8 +83,8 @@ function getLinks(){
                 $(".back_arrow").toggle();
                 let partNumber = 1;
 
-                for (let i = 0; i < allCoords.length; i += 10) {
-                    const slice = allCoords.slice(i, i + 11);
+                for (let i = 0; i < allCoords.length; i += 9) {
+                    const slice = allCoords.slice(i, i + 10);
                     const destination = slice[slice.length - 1];
                     const waypoints = slice.slice(0, -1);
 
