@@ -84,7 +84,12 @@ function getLinks(){
                 let partNumber = 1;
 
                 for (let i = 0; i < allCoords.length; i += 9) {
-                    const slice = allCoords.slice(i, i + 10);
+                    let slice = allCoords.slice(i, i + 10);
+
+                    if(i!=0){
+                        slice=allCoords.slice(i+1, i + 10);
+                    }
+
                     const destination = slice[slice.length - 1];
                     const waypoints = slice.slice(0, -1);
 
