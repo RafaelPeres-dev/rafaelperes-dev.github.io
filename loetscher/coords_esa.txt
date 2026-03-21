@@ -33,6 +33,14 @@
             "Loc": "47.083138, 8.309002"
         },
         {
+            "Name": "Jasmin Garage",
+            "Loc": "47.083417, 8.310414"
+        },
+        {
+            "Name": "M&K Garage Emmen",
+            "Loc": "47.085026, 8.292980"
+        },
+        {
             "Name": "Wigger AG",
             "Loc": "47.067614, 8.278064"
         },
@@ -149,6 +157,10 @@
             "Loc": "47.104055, 8.202641"
         },
         {
+            "Name": "MB Cars",
+            "Loc": "47.104648, 8.200891"
+        },
+        {
             "Name": "Garage Steger & Schnyder",
             "Loc": "47.085715, 8.209311"
         },
@@ -167,6 +179,18 @@
         {
             "Name": "Garage Roos Ruswil GmbH",
             "Loc": "47.089653, 8.109940"
+        },
+        {
+            "Name": "Kurmann Technik AG",
+            "Loc": "47.090042, 8.109569"
+        },
+        {
+            "Name": "Hocher GmbH Garage",
+            "Loc": "47.093281, 8.077350"
+        },
+        {
+            "Name": "Affentranger Auto AG",
+            "Loc": "47.111255, 8.088841"
         },
         {
             "Name": "Auto Hebler AG",
@@ -191,6 +215,14 @@
         {
             "Name": "Luciano's Classics",
             "Loc": "47.127389, 8.054573"
+        },
+        {
+            "Name": "B. Kaufmann AG Grosswangen",
+            "Loc": "47.128632, 8.055635"
+        },
+        {
+            "Name": "Auto-Mehri AG",
+            "Loc": "47.127605, 8.056503"
         },
         {
             "Name": "Pfenniger Garage AG",
