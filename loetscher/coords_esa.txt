@@ -19,6 +19,10 @@
         {
             "Name": "RSA-Garage",
             "Loc": "47.108507, 8.323797"
+        },,
+        {
+            "Name": "KIBAG Bauleistungen",
+            "Loc": "47.106948, 8.319023"
         },
         {
             "Name": "Anliker AG",
@@ -31,6 +35,10 @@
         {
             "Name": "Schöngrund Garage",
             "Loc": "47.083138, 8.309002"
+        },
+        {
+            "Name": "Jasmin Garage",
+            "Loc": "47.083417, 8.310414"
         },
         {
             "Name": "Wigger AG",
@@ -113,6 +121,10 @@
             "Loc": "47.049974, 8.258726"
         },
         {
+            "Name": "Autoservice Gojani",
+            "Loc": "47.071733, 8.282090"
+        },
+        {
             "Name": "MF Garage AG",
             "Loc": "47.073814, 8.276300"
         },
@@ -149,6 +161,10 @@
             "Loc": "47.104055, 8.202641"
         },
         {
+            "Name": "MB Cars",
+            "Loc": "47.104648, 8.200891"
+        },
+        {
             "Name": "Garage Steger & Schnyder",
             "Loc": "47.085715, 8.209311"
         },
@@ -167,6 +183,14 @@
         {
             "Name": "Garage Roos Ruswil GmbH",
             "Loc": "47.089653, 8.109940"
+        },
+        {
+            "Name": "Kurmann Technik AG",
+            "Loc": "47.090042, 8.109569"
+        },
+        {
+            "Name": "Hocher GmbH Garage",
+            "Loc": "47.093281, 8.077350"
         },
         {
             "Name": "Auto Hebler AG",
@@ -249,6 +273,10 @@
             "Loc": "47.133098, 8.196442"
         }
     ],
+    "50B": [{
+            "Name": "Garage Fünfstern AG",
+            "Loc": "47.133098, 8.196442"
+        }],
     "51": [
         {
             "Name": "Auto Dall'Omo Gmbh",
@@ -858,19 +886,82 @@
             "Loc": "46.897838, 7.902128"
         }
     ],
-    "53" :
-    [
+    "53" :[
         {
-            "Name": "TRIBSCHEN GARAGE LUZERN",
-            "Loc": "47.042085, 8.318887"
+            "Name": "Gross Garage Horw AG",
+            "Loc": "47.025100, 8.307092"
         },
         {
-            "Name": "Garage Epper Luzern",
-            "Loc": "47.036182, 8.302615"
+            "Name": "AllRound Garage",
+            "Loc": "47.013261, 8.307985"
         },
         {
-            "Name": "Strassenverkehrsamt Kanton Luzern",
-            "Loc": "47.036462, 8.296515"
+            "Name": "AGVS Sektion Zentralschweiz Ausbildungszentrum",
+            "Loc": "47.014899, 8.307979"
+        },
+        {
+            "Name": "Pilatus Garage",
+            "Loc": "47.018980, 8.304988"
+        },
+        {
+            "Name": "Car Stop Fuchs",
+            "Loc": "47.015808, 8.302248"
+        },
+        {
+            "Name": "Liem AG Garage",
+            "Loc": "47.016039, 8.302586"
+        },
+        {
+            "Name": "Ercolani Autospenglerei - Malerei AG",
+            "Loc": "47.018654, 8.300901"
+        },
+        {
+            "Name": "J. Windlin AG Nutzfahrzeug",
+            "Loc": "47.024433, 8.292746"
+        },
+        {
+            "Name": "Auto Meter",
+            "Loc": "47.024078, 8.297232"
+        },
+        {
+            "Name": "AMAG",
+            "Loc": "47.023804, 8.296335"
+        },
+        {
+            "Name": "Migrolino NidfeldStrasse 10",
+            "Loc": "47.026477, 8.299313"
+        },
+        {
+            "Name": "LUEG Kriens",
+            "Loc": "47.027749, 8.299640"
+        },
+        {
+            "Name": "Emil Frey Kriens",
+            "Loc": "47.028235, 8.298932"
+        },
+        {
+            "Name": "Garage Galliker AG Kriens",
+            "Loc": "47.028469, 8.297645"
+        },
+        {
+            "Name": "Garage J. Windlin AG",
+            "Loc": "47.029551, 8.299023"
+        },
+        {
+            "Name": "Garage Frank GmbH",
+            "Loc": "47.029525, 8.297997"
+        },
+        {
+            "Name": "Steiner Group AG Kriens",
+            "Loc": "47.028127, 8.293625"
+        },
+        {
+            "Name": "Schwerzmann AG Automobile",
+            "Loc": "47.029709, 8.293907"
+        },
+        {
+            "Name": "Sportweg 4",
+            "Loc": "47.029764, 8.289364"
         },
         {
             "Name": "Spring Garagen AG",
@@ -889,165 +980,229 @@
             "Loc": "47.035050, 8.244083"
         },
         {
-            "Name": "Schwerzmann AG Automobile",
-            "Loc": "47.029709, 8.293907"
+            "Name": "Nidfeld-Garage AG",
+            "Loc": "47.035509, 8.296225"
         },
         {
-            "Name": "Steiner Group AG Kriens",
-            "Loc": "47.028127, 8.293625"
+            "Name": "Strassenverkehrsamt Kanton Luzern",
+            "Loc": "47.036462, 8.296515"
         },
         {
-            "Name": "Garage Frank GmbH",
-            "Loc": "47.029525, 8.297997"
+            "Name": "Garage Epper Luzern",
+            "Loc": "47.036182, 8.302615"
         },
         {
-            "Name": "Garage J. Windlin AG",
-            "Loc": "47.029551, 8.299023"
+            "Name": "TRIBSCHEN GARAGE LUZERN",
+            "Loc": "47.042085, 8.318887"
         },
         {
-            "Name": "Garage Galliker AG Kriens",
-            "Loc": "47.028469, 8.297645"
+            "Name": "Wigger AG",
+            "Loc": "47.067614, 8.278064"
         },
         {
-            "Name": "Emil Frey Kriens",
-            "Loc": "47.028235, 8.298932"
+            "Name": "KBS Parts",
+            "Loc": "47.066886, 8.278283"
         },
         {
-            "Name": "LUEG Kriens",
-            "Loc": "47.027749, 8.299640"
+            "Name": "Rothenring-Garage GmbH",
+            "Loc": "47.066545, 8.277757"
         },
         {
-            "Name": "J. Windlin AG Nutzfahrzeug",
-            "Loc": "47.024433, 8.292746"
+            "Name": "Garage Senn AG - Peugeot",
+            "Loc": "47.066393, 8.277796"
         },
         {
-            "Name": "Ercolani Autospenglerei - Malerei AG",
-            "Loc": "47.018654, 8.300901"
+            "Name": "Agrons Garage",
+            "Loc": "47.065118, 8.276871"
         },
         {
-            "Name": "Liem AG Garage",
-            "Loc": "47.016039, 8.302586"
+            "Name": "Carrosserie Zenklusen GmbH",
+            "Loc": "47.065233, 8.277346"
         },
         {
-            "Name": "Car Stop Fuchs",
-            "Loc": "47.015808, 8.302248"
+            "Name": "Garage Ruda R. Nozinic",
+            "Loc": "47.065506, 8.277996"
         },
         {
-            "Name": "Pilatus Garage",
-            "Loc": "47.018980, 8.304988"
+            "Name": "Pius Wermelinger GmbH",
+            "Loc": "47.065281, 8.278775"
         },
         {
-            "Name": "AGVS Sektion Zentralschweiz Ausbildungszentrum",
-            "Loc": "47.014899, 8.307979"
+            "Name": "4x4 Technik Zimmermann",
+            "Loc": "47.065281, 8.278775"
         },
         {
-            "Name": "AllRound Garage",
-            "Loc": "47.013261, 8.307985"
+            "Name": "AUTO FUCHS & SCHMID AG Dacia",
+            "Loc": "47.065900, 8.283312"
         },
         {
-            "Name": "Gross Garage Horw AG",
-            "Loc": "47.025100, 8.307092"
+            "Name": "Steiner Group AG, BMW Partner Luzern",
+            "Loc": "47.057916, 8.284979"
+        },
+        {
+            "Name": "Lueg Littau",
+            "Loc": "47.048841, 8.271773"
+        },
+        {
+            "Name": "Garage Salvenmoser GmbH",
+            "Loc": "47.049349, 8.265299"
+        },
+        {
+            "Name": "Garage Daniel Marti AG",
+            "Loc": "47.049694, 8.265174"
+        },
+        {
+            "Name": "von Euw Autospritzwerk",
+            "Loc": "47.047951, 8.266121"
+        },
+        {
+            "Name": "Xclusive Cars",
+            "Loc": "47.050788, 8.264896"
+        },
+        {
+            "Name": "Odermatt Motos Luzern",
+            "Loc": "47.047436, 8.258526"
+        },
+        {
+            "Name": "Garage Schrotmättli GmbH",
+            "Loc": "47.046424, 8.256561"
+        },
+        {
+            "Name": "Urs Schmid AG Landmaschinen",
+            "Loc": "47.046389, 8.256527"
+        },
+        {
+            "Name": "Dorfgarage Müller",
+            "Loc": "47.049974, 8.258726"
         }
     ],
-    "54": [],
-    "55": 
-    [
+    "54": [
         {
-            "Name": "Pneu und Autozubehör Zürcher",
-            "Loc": "47.146396, 8.431831"
+            "Name": "Auto Gribi Buchrain",
+            "Loc": "47.121401, 8.341707"
         },
         {
-            "Name": "Huber Transport AG",
-            "Loc": "47.147732, 8.427711"
+            "Name": "Garage Anton Scheuber",
+            "Loc": "47.121735, 8.326210"
         },
         {
-            "Name": "DC Carrosserie GmbH",
-            "Loc": "47.148437, 8.431557"
+            "Name": "Auto Service Brügger",
+            "Loc": "47.122012, 8.326478"
         },
         {
-            "Name": "AUTO BACHMANN AG",
-            "Loc": "47.147886, 8.433000"
+            "Name": "Enzmann Carrosserie",
+            "Loc": "47.122385, 8.326595"
         },
         {
-            "Name": "Porsche Schweiz AG",
-            "Loc": "47.149751, 8.436892"
+            "Name": "Garage Erni Neudorf AG",
+            "Loc": "47.176394, 8.209011"
         },
         {
-            "Name": "Carrosserie Ryser AG",
-            "Loc": "47.153032, 8.436604"
+            "Name": "Fläcke Garage",
+            "Loc": "47.206061, 8.194257"
         },
         {
-            "Name": "BestDrive Hünenberg",
-            "Loc": "47.161212, 8.437942"
+            "Name": "Galliker Hochdrof",
+            "Loc": "47.168263, 8.304238"
         },
         {
-            "Name": "BIXE AG Harley-Davidson Zentral-Schweiz",
-            "Loc": "47.159883, 8.443985"
+            "Name": "Bellevue Auto AG",
+            "Loc": "47.171376, 8.286964"
         },
         {
-            "Name": "Autoklinik Zug AG",
-            "Loc": "47.162540, 8.434711"
+            "Name": "Fischer Baldegg",
+            "Loc": "47.185297, 8.281005"
         },
         {
-            "Name": "Auto Furrer AG",
-            "Loc": "47.178012, 8.432642"
+            "Name": "Auto Leisibach",
+            "Loc": "47.219253, 8.256890"
         },
         {
-            "Name": "Auto Suter AG",
-            "Loc": "47.179505, 8.433725"
+            "Name": "Auto Heidegg",
+            "Loc": "47.220244, 8.264093"
         },
         {
-            "Name": "Garage Grepper AG",
-            "Loc": "47.188069, 8.474028"
+            "Name": "Bucher Agro-Technik",
+            "Loc": "47.236164, 8.277230"
         },
         {
-            "Name": "Amag Cham",
-            "Loc": "47.186429, 8.473499"
+            "Name": "Stadelmann Garage",
+            "Loc": "47.255366, 8.243913"
         },
         {
-            "Name": "Bentley Zug",
-            "Loc": "47.186429, 8.473499"
+            "Name": "Scantrade Classics GmbH",
+            "Loc": "47.267754, 8.276897"
         },
         {
-            "Name": "Velsen Garage",
-            "Loc": "47.196049, 8.478565"
+            "Name": "Riva Oldtimer AG",
+            "Loc": "47.267646, 8.275926"
         },
         {
-            "Name": "Auto Center Steinhausen GmbH",
-            "Loc": "47.193978, 8.478781"
+            "Name": "Pneuhaus Schongau AG",
+            "Loc": "47.267646, 8.275926"
         },
         {
-            "Name": "Wild Handels AG",
-            "Loc": "47.193389, 8.479136"
+            "Name": "Lindenberg-Garage AG",
+            "Loc": "47.267134, 8.276567"
         },
         {
-            "Name": "MB Auto Center Zug AG",
-            "Loc": "47.190677, 8.480568"
+            "Name": "Bucher Agro-Technik",
+            "Loc": "47.236164, 8.277230"
         },
         {
-            "Name": "Autohilfe Zug Steinhausen",
-            "Loc": "47.189817, 8.481057"
+            "Name": "Garage Ming",
+            "Loc": "47.244635, 8.226462"
         },
         {
-            "Name": "Garage Nagel GmbH",
-            "Loc": "47.185686, 8.488878"
+            "Name": "Fischer Automobile",
+            "Loc": "47.269035, 8.202801"
         },
         {
-            "Name": "Garage Schildknecht Gmbh",
-            "Loc": "47.214241, 8.468346"
+            "Name": "M. Gloor",
+            "Loc": "47.291141, 8.193864"
         },
         {
-            "Name": "Gabathuler AG",
-            "Loc": "47.215055, 8.468729"
+            "Name": "Feldgarage Seengen",
+            "Loc": "47.329416, 8.202030"
         },
         {
-            "Name": "British Classic Cars AG",
-            "Loc": "47.214361, 8.467887"
+            "Name": "Garage Giordanelli",
+            "Loc": "47.355708, 8.171752"
         },
         {
-            "Name": "SAHLI AG",
-            "Loc": "47.225251, 8.461944"
+            "Name": "Wyser Seon",
+            "Loc": "47.355430, 8.161752"
         },
+        {
+            "Name": "Autosa / autoBörse",
+            "Loc": "47.361384, 8.164553"
+        },
+        {
+            "Name": "Robert Huber",
+            "Loc": "47.361936, 8.164643"
+        },
+        {
+            "Name": "Garage Dössegger",
+            "Loc": "47.340139, 8.164058"
+        },
+        {
+            "Name": "Pneu-Huus Fokke GmbH",
+            "Loc": "47.331553, 8.171588"
+        },
+        {
+            "Name": "RS-Cars",
+            "Loc": "47.321853, 8.158615"
+        },
+        {
+            "Name": "Heinz Urech",
+            "Loc": "47.325510, 8.178497"
+        },
+        {
+            "Name": "SRT Garage",
+            "Loc": "47.319046, 8.186100"
+        },
+    ],
+    "55": [
         {
             "Name": "Winkelbüel Garage AG",
             "Loc": "47.196616, 8.435351"
@@ -1093,6 +1248,14 @@
             "Loc": "47.212833, 8.364199"
         },
         {
+            "Name": "Carrosserie Bucher",
+            "Loc": "47.221929, 8.343745"
+        },
+        {
+            "Name": "Garage Rolmar",
+            "Loc": "47.223862, 8.344218"
+        },
+        {
             "Name": "Küng Anton Garage GmbH",
             "Loc": "47.231855, 8.342753"
         },
@@ -1103,34 +1266,6 @@
         {
             "Name": "Garage Gretener AG",
             "Loc": "47.224624, 8.365700"
-        },
-        {
-            "Name": "Garage Dominik Mülle",
-            "Loc": "47.229058, 8.390698"
-        },
-        {
-            "Name": "Garage Rütter",
-            "Loc": "47.233224, 8.389302"
-        },
-        {
-            "Name": "Garage Maeder",
-            "Loc": "47.257863, 8.375871"
-        },
-        {
-            "Name": "Carrosserie Garage M. Wandke",
-            "Loc": "47.263247, 8.393812"
-        },
-        {
-            "Name": "Pneuhaus Rexhepi GmbH",
-            "Loc": "47.260651, 8.389295"
-        },
-        {
-            "Name": "Garage Arnold AG",
-            "Loc": "47.261630, 8.387522"
-        },
-        {
-            "Name": "Robert Huber AG",
-            "Loc": "47.260363, 8.352212"
         },
         {
             "Name": "HUK's AUTOREPAIR Gmb",
@@ -1169,23 +1304,55 @@
             "Loc": "47.276906, 8.338694"
         },
         {
-            "Name": "Scantrade Classics GmbH",
-            "Loc": "47.267842, 8.276626"
+            "Name": "Carrosserie Garage M. Wandke",
+            "Loc": "47.263247, 8.393812"
         },
         {
-            "Name": "Lindenberg Garage AG",
-            "Loc": "47.267171, 8.276583"
+            "Name": "Pneuhaus Rexhepi GmbH",
+            "Loc": "47.260651, 8.389295"
         },
         {
-            "Name": "Pneu Egger(BestDrive)",
-            "Loc": "47.267770, 8.275962"
+            "Name": "Garage Arnold AG",
+            "Loc": "47.261630, 8.387522"
         },
         {
-            "Name": "Bucher Agro-Technik AG",
-            "Loc": "47.236020, 8.276935"
-        }
+            "Name": "Robert Huber AG",
+            "Loc": "47.260363, 8.352212"
+        },
+        {
+            "Name": "Garage Maeder",
+            "Loc": "47.257863, 8.375871"
+        },
+        {
+            "Name": "Garage Rütter",
+            "Loc": "47.233224, 8.389302"
+        },
+        {
+            "Name": "Garage Dominik Mülle",
+            "Loc": "47.229058, 8.390698"
+        },
     ],
     "56": [
+          {
+            "Name": "BestDrive Hünenberg",
+            "Loc": "47.161212, 8.437942"
+        },
+        {
+            "Name": "BIXE AG Harley-Davidson Zentral-Schweiz",
+            "Loc": "47.159883, 8.443985"
+        },
+        {
+            "Name": "Autoklinik Zug AG",
+            "Loc": "47.162540, 8.434711"
+        },
+        {
+            "Name": "Auto Furrer AG",
+            "Loc": "47.178012, 8.432642"
+        },
+        {
+            "Name": "Auto Suter AG",
+            "Loc": "47.179505, 8.433725"
+        },
         {
             "Name": "Zariyat GmbH",
             "Loc": "47.103223, 8.451056"
@@ -1568,6 +1735,42 @@
     "58": [],
     "59": [
         {
+            "Name": "Garage Mathis AG",
+            "Loc": "47.110243, 8.321293"
+        },
+        {
+            "Name": "Garage Blaser AG",
+            "Loc": "47.108880, 8.322203"
+        },
+        {
+            "Name": "Garage Burri Emmen A",
+            "Loc": "47.108241, 8.324605"
+        },
+        {
+            "Name": "RSA-Garage",
+            "Loc": "47.108507, 8.323797"
+        },,
+        {
+            "Name": "KIBAG Bauleistungen",
+            "Loc": "47.106948, 8.319023"
+        },
+        {
+            "Name": "Anliker AG",
+            "Loc": "47.090291, 8.317208"
+        },
+        {
+            "Name": "Caravans Zimmermann AG",
+            "Loc": "47.087981, 8.315354"
+        },
+        {
+            "Name": "Schöngrund Garage",
+            "Loc": "47.083138, 8.309002"
+        },
+        {
+            "Name": "Jasmin Garage",
+            "Loc": "47.083417, 8.310414"
+        },
+        {
             "Name": "Bolliger Nutzfahrzeuge AG",
             "Loc": "47.102330, 8.376677"
         },
@@ -1687,8 +1890,40 @@
             "Name": "Dorfgarage Vitznau A.Hetemi",
             "Loc": "47.008368, 8.483825"
         }
-        ],
+    ],
     "61": [
+        {
+            "Name": "Pneu und Autozubehör Zürcher",
+            "Loc": "47.146396, 8.431831"
+        },
+        {
+            "Name": "Huber Transport AG",
+            "Loc": "47.147732, 8.427711"
+        },
+        {
+            "Name": "DC Carrosserie GmbH",
+            "Loc": "47.148437, 8.431557"
+        },
+        {
+            "Name": "AUTO BACHMANN AG",
+            "Loc": "47.147886, 8.433000"
+        },
+        {
+            "Name": "Porsche Schweiz AG",
+            "Loc": "47.149751, 8.436892"
+        },
+        {
+            "Name": "auto4me AG",
+            "Loc": "47.148212, 8.441989"
+        },
+        {
+            "Name": "Auto Seiler AG",
+            "Loc": "47.153839, 8.437872"
+        },
+        {
+            "Name": "Carrosserie Ryser AG",
+            "Loc": "47.153032, 8.436604"
+        },
         {
             "Name": "ReifenCenter Goldau",
             "Loc": "47.041742, 8.547983"
@@ -1810,8 +2045,7 @@
             "Loc": "46.962867, 8.482097"
         }
     ],
-    "63": 
-    [
+    "63": [
         {
             "Name": "Pneu und Autozubehör Zürcher",
             "Loc": "47.146396, 8.431831"
