@@ -41,6 +41,10 @@
             "Loc": "47.083417, 8.310414"
         },
         {
+            "Name": "M&K Garage Emmen",
+            "Loc": "47.085026, 8.292980"
+        },
+        {
             "Name": "Wigger AG",
             "Loc": "47.067614, 8.278064"
         },
@@ -193,6 +197,10 @@
             "Loc": "47.093281, 8.077350"
         },
         {
+            "Name": "Affentranger Auto AG",
+            "Loc": "47.111255, 8.088841"
+        },
+        {
             "Name": "Auto Hebler AG",
             "Loc": "47.113141, 8.091283"
         },
@@ -215,6 +223,14 @@
         {
             "Name": "Luciano's Classics",
             "Loc": "47.127389, 8.054573"
+        },
+        {
+            "Name": "B. Kaufmann AG Grosswangen",
+            "Loc": "47.128632, 8.055635"
+        },
+        {
+            "Name": "Auto-Mehri AG",
+            "Loc": "47.127605, 8.056503"
         },
         {
             "Name": "Pfenniger Garage AG",
