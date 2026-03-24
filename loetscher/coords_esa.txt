@@ -1619,7 +1619,7 @@
         {
             "Name": "RSA-Garage",
             "Loc": "47.108507, 8.323797"
-        },,
+        },
         {
             "Name": "KIBAG Bauleistungen",
             "Loc": "47.106948, 8.319023"
