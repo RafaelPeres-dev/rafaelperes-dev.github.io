@@ -273,10 +273,6 @@
             "Loc": "47.133098, 8.196442"
         }
     ],
-    "50B": [{
-            "Name": "Garage Fünfstern AG",
-            "Loc": "47.133098, 8.196442"
-        }],
     "51": [
         {
             "Name": "Auto Dall'Omo Gmbh",
