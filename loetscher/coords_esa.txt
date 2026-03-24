@@ -1568,6 +1568,42 @@
     "58": [],
     "59": [
         {
+            "Name": "Garage Mathis AG",
+            "Loc": "47.110243, 8.321293"
+        },
+        {
+            "Name": "Garage Blaser AG",
+            "Loc": "47.108880, 8.322203"
+        },
+        {
+            "Name": "Garage Burri Emmen A",
+            "Loc": "47.108241, 8.324605"
+        },
+        {
+            "Name": "RSA-Garage",
+            "Loc": "47.108507, 8.323797"
+        },,
+        {
+            "Name": "KIBAG Bauleistungen",
+            "Loc": "47.106948, 8.319023"
+        },
+        {
+            "Name": "Anliker AG",
+            "Loc": "47.090291, 8.317208"
+        },
+        {
+            "Name": "Caravans Zimmermann AG",
+            "Loc": "47.087981, 8.315354"
+        },
+        {
+            "Name": "Schöngrund Garage",
+            "Loc": "47.083138, 8.309002"
+        },
+        {
+            "Name": "Jasmin Garage",
+            "Loc": "47.083417, 8.310414"
+        },
+        {
             "Name": "Bolliger Nutzfahrzeuge AG",
             "Loc": "47.102330, 8.376677"
         },
@@ -1648,10 +1684,6 @@
             "Loc": "47.075108, 8.330849"
         },
         {
-            "Name": "Carplanet | Garage Bolzern Koch AG",
-            "Loc": "47.073214, 8.327653"
-        },
-        {
             "Name": "Autohaus Imholz AG - Peugeot",
             "Loc": "47.071838, 8.325034"
         },
@@ -1664,12 +1696,20 @@
             "Loc": "47.074235, 8.328310"
         },
         {
+            "Name": "Carplanet | Garage Bolzern Koch AG",
+            "Loc": "47.073214, 8.327653"
+        },
+        {
             "Name": "Carrosserie Rotsee",
             "Loc": "47.068081, 8.315771"
         },
         {
             "Name": "Garage Wesemlin",
             "Loc": "47.060803, 8.316103"
+        },
+        {
+            "Name": "LUEG",
+            "Loc": "47.060023, 8.301652"
         },
         {
             "Name": "Central Garage M. Huber",
