@@ -19,7 +19,7 @@
         {
             "Name": "RSA-Garage",
             "Loc": "47.108507, 8.323797"
-        },,
+        },
         {
             "Name": "KIBAG Bauleistungen",
             "Loc": "47.106948, 8.319023"
@@ -1851,10 +1851,6 @@
             "Loc": "47.075108, 8.330849"
         },
         {
-            "Name": "Carplanet | Garage Bolzern Koch AG",
-            "Loc": "47.073214, 8.327653"
-        },
-        {
             "Name": "Autohaus Imholz AG - Peugeot",
             "Loc": "47.071838, 8.325034"
         },
@@ -1867,12 +1863,20 @@
             "Loc": "47.074235, 8.328310"
         },
         {
+            "Name": "Carplanet | Garage Bolzern Koch AG",
+            "Loc": "47.073214, 8.327653"
+        },
+        {
             "Name": "Carrosserie Rotsee",
             "Loc": "47.068081, 8.315771"
         },
         {
             "Name": "Garage Wesemlin",
             "Loc": "47.060803, 8.316103"
+        },
+        {
+            "Name": "LUEG",
+            "Loc": "47.060023, 8.301652"
         },
         {
             "Name": "Central Garage M. Huber",
