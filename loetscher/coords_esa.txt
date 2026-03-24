@@ -1,116 +1,16 @@
 {
     "50": [
         {
-            "Name": "Auto Gribi Buchrain",
-            "Loc": "47.121401, 8.341707"
+            "Name": "RCPowered",
+            "Loc": "47.122606, 8.244590"
         },
         {
-            "Name": "Garage Mathis AG",
-            "Loc": "47.110243, 8.321293"
+            "Name": "Feldmatt Garage",
+            "Loc": "47.123876, 8.245885"
         },
         {
-            "Name": "Garage Blaser AG",
-            "Loc": "47.108880, 8.322203"
-        },
-        {
-            "Name": "Garage Burri Emmen A",
-            "Loc": "47.108241, 8.324605"
-        },
-        {
-            "Name": "RSA-Garage",
-            "Loc": "47.108507, 8.323797"
-        },
-        {
-            "Name": "Anliker AG",
-            "Loc": "47.090291, 8.317208"
-        },
-        {
-            "Name": "Caravans Zimmermann AG",
-            "Loc": "47.087981, 8.315354"
-        },
-        {
-            "Name": "Schöngrund Garage",
-            "Loc": "47.083138, 8.309002"
-        },
-        {
-            "Name": "Wigger AG",
-            "Loc": "47.067614, 8.278064"
-        },
-        {
-            "Name": "KBS Parts",
-            "Loc": "47.066886, 8.278283"
-        },
-        {
-            "Name": "Rothenring-Garage GmbH",
-            "Loc": "47.066545, 8.277757"
-        },
-        {
-            "Name": "Garage Senn AG - Peugeot",
-            "Loc": "47.066393, 8.277796"
-        },
-        {
-            "Name": "Agrons Garage",
-            "Loc": "47.065118, 8.276871"
-        },
-        {
-            "Name": "Carrosserie Zenklusen GmbH",
-            "Loc": "47.065233, 8.277346"
-        },
-        {
-            "Name": "Garage Ruda R. Nozinic",
-            "Loc": "47.065506, 8.277996"
-        },
-        {
-            "Name": "Pius Wermelinger GmbH",
-            "Loc": "47.065281, 8.278775"
-        },
-        {
-            "Name": "4x4 Technik Zimmermann",
-            "Loc": "47.065281, 8.278775"
-        },
-        {
-            "Name": "AUTO FUCHS & SCHMID AG Dacia",
-            "Loc": "47.065900, 8.283312"
-        },
-        {
-            "Name": "Steiner Group AG, BMW Partner Luzern",
-            "Loc": "47.057916, 8.284979"
-        },
-        {
-            "Name": "Lueg Littau",
-            "Loc": "47.048841, 8.271773"
-        },
-        {
-            "Name": "Garage Salvenmoser GmbH",
-            "Loc": "47.049349, 8.265299"
-        },
-        {
-            "Name": "Garage Daniel Marti AG",
-            "Loc": "47.049694, 8.265174"
-        },
-        {
-            "Name": "von Euw Autospritzwerk",
-            "Loc": "47.047951, 8.266121"
-        },
-        {
-            "Name": "Xclusive Cars",
-            "Loc": "47.050788, 8.264896"
-        },
-        {
-            "Name": "Odermatt Motos Luzern",
-            "Loc": "47.047436, 8.258526"
-        },
-        {
-            "Name": "Garage Schrotmättli GmbH",
-            "Loc": "47.046424, 8.256561"
-        },
-        {
-            "Name": "Urs Schmid AG Landmaschinen",
-            "Loc": "47.046389, 8.256527"
-        },
-        {
-            "Name": "Dorfgarage Müller",
-            "Loc": "47.049974, 8.258726"
+            "Name": "AutoRain",
+            "Loc": "47.126478, 8.243676"
         },
         {
             "Name": "MF Garage AG",
